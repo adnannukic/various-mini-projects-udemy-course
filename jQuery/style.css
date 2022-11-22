@@ -1,0 +1,11 @@
+body {
+    background-color: antiquewhite;
+}
+.big-title {
+    font-size: 3rem;
+    color: darkolivegreen;
+    font-family: cursive;
+}
+.margin-left-100px {
+    margin-left: 100px;
+}

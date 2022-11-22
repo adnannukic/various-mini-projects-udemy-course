@@ -1,0 +1,20 @@
+body {
+    background-color: brown;
+}
+
+.weather-box {
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    box-shadow: 2px 2px #000;
+    border-radius: 10%;
+}
+
+.inputLabel {
+    font-size: 28px;
+    color: #fff;
+    margin: 12.5% auto 0 auto;
+    width: 400px;
+    height: 100px;
+}

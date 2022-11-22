@@ -1,0 +1,169 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sacramento&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Sacramento&display=swap');
+
+/*----------TAG SELECTORS----------*/
+body {
+  background-color: #E7F6F2;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1.2rem;
+  color: #2C3333;
+}
+
+h1 {
+  margin-top: 3%;
+  margin-bottom: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 5rem;
+  color: #395B64;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.2rem;
+  margin: 0;
+  color: #395B64;
+  padding-bottom: 2%;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: #A5C9CA;
+  border-width: 0.4vw;
+  width: 10%;
+  opacity: 0.8;
+  margin-top: 3%;
+  margin-bottom: 3%;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  color: #A5C9CA;
+  font-family: 'Montserrat', sans-serif;
+  margin: 1% 1%;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #E7F6F2;
+}
+
+/*----------------------------------*/
+/*----------CLASS SELECTORS----------*/
+.top_container {
+  position: relative;
+}
+
+.middle_container {
+  margin-bottom: 5%;
+}
+
+.bottom_container {
+  background-color: #395B64;
+  padding: 0.5% 0 0.5%;
+  color: #2C3333;
+}
+
+.short_bio {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.profile {
+  line-height: 2;
+}
+
+.even_row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 15% 0 15%;
+}
+
+.odd_row {
+  display: flex;
+  justify-content: center;
+}
+
+.icon_and_description {
+  margin: 1% 0 0 0;
+  width: 20vw;
+}
+
+.skill_hobbies_icons {
+  width: 20%;
+}
+
+.btn {
+  -webkit-border-radius: 8;
+  -moz-border-radius: 8;
+  border-radius: 8px;
+  font-family: Arial;
+  color: #E7F6F2;
+  font-size: 20px;
+  background: #395B64;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #A5C9CA;
+  text-decoration: none;
+}
+
+.copyright {
+  color: #A5C9CA;
+  font-size: 0.75rem;
+  padding-top: 1%;
+}
+
+.contact_message {
+  width: 40%;
+  margin: 2% auto 4%;
+}
+
+/*-----------------------------------*/
+/*----------ID SELECETORS----------*/
+#left_spotlight {
+  position: absolute;
+  left: 10%;
+  width: 12vw;
+  height: 12vw;
+  opacity: 80%;
+}
+
+#right_spotlight {
+  position: absolute;
+  right: 10%;
+  bottom: 80%;
+  width: 12vw;
+  height: 12vw;
+  opacity: 0.8;
+}
+
+#coding_img {
+  width: 40vw;
+  height: 40vw;
+  padding-top: 2vh;
+}
+
+#profile_img {
+  border: solid 2px #395B64;
+  border-radius: 100%;
+  width: 15vw;
+  height: 15vw;
+  margin-top: 3vw;
+  margin-bottom: 3vw;
+}

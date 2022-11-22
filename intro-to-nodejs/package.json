@@ -1,0 +1,15 @@
+{
+  "name": "intro-to-nodejs",
+  "version": "1.0.0",
+  "description": "This is intro to node project.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Adnan Nukic",
+  "license": "ISC",
+  "dependencies": {
+    "superhero-name-library": "^1.2.2",
+    "supervillains": "^3.1.0"
+  }
+}
